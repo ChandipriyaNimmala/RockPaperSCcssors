@@ -1,17 +1,18 @@
 # ✊🖐✌ Rock Paper Scissors Game (C Program)
 
-This repository contains a simple and fun **Rock Paper Scissors** game implemented in **C language**. It’s an interactive console-based project where the player competes against the computer by choosing between **Stone**, **Paper**, and **Scissor**.
+This is a simple and fun **Rock Paper Scissors** game developed in **C language**. It is a console-based project where the user competes against the computer by choosing between **Stone**, **Paper**, or **Scissor**.
 
 ---
 
 ## 🕹️ Game Overview
 
-The player enters their choice:
+You enter your choice:
 - `s` → **Stone**
 - `p` → **Paper**
 - `z` → **Scissor**
 
-The computer randomly selects one of the three options using the `rand()` function, and the program determines the winner based on traditional game rules:
+The computer randomly picks one of these options using the `rand()` function.  
+The winner is determined based on classic rules:
 
 - Stone beats Scissor  
 - Scissor beats Paper  
@@ -24,8 +25,8 @@ The computer randomly selects one of the three options using the `rand()` functi
 - Interactive and easy-to-play console interface  
 - Randomized computer moves using `rand()` and `srand()`  
 - Displays both player and computer choices  
-- Announces result as **Win**, **Lose**, or **Draw**  
-- Beginner-friendly logic using simple `if-else` statements  
+- Announces results: **Win**, **Lose**, or **Draw**  
+- Beginner-friendly and simple to understand  
 
 ---
 
@@ -33,13 +34,19 @@ The computer randomly selects one of the three options using the `rand()` functi
 
 - **Language:** C  
 - **Libraries:** `stdio.h`, `stdlib.h`, `time.h`, `math.h`  
-- **Concepts:** Random number generation, conditional logic, user input  
+- **Concepts:** Conditional statements, random number generation, user input handling  
 
 ---
 
-## 🚀 How to Run
+## 🚀 How to Run (on Desktop)
 
-1. Save the file as `rock_paper_scissors.c`  
-2. Compile the code using GCC:
-   ```bash
-   gcc rock_paper_scissors.c -o rps
+1. Open your C compiler (**Code::Blocks**, **Turbo C**, **Dev C++**, or **VS Code**).  
+2. Create a new file named `rock_paper_scissors.c`.  
+3. Copy and paste the game code into the file.  
+4. Compile and run the program.  
+5. Enter your choice (`s`, `p`, or `z`) and enjoy the game!
+
+---
+
+## 📸 Example Output
+
